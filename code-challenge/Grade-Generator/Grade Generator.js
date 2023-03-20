@@ -23,5 +23,5 @@ if (marks >= 80 && marks <= 100) {
 }
 
 //displays the grade
-console.log("Grade: " + grade);
+document.write("Grade: " + grade);
 

@@ -15,10 +15,10 @@ function checkSpeed(speed) {
       }
     }
   }
-  
+  //allows the user to enter their speed reached 
   const userSpeed = prompt("Enter the car's speed attained:");
   const speed = parseInt(userSpeed);
-  
+  //does not allow other data types other than numbers
   if (isNaN(speed)) {
     result=prompt("Invalid input. Please enter a number.");
   } else {
