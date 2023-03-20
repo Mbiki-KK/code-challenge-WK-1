@@ -1,5 +1,5 @@
 //solution 
-
+//
 function checkSpeed(speed) {
     const speedLimit = 70;
     const kmPerDemerit = 5;
