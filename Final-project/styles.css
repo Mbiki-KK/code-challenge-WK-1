@@ -130,9 +130,11 @@ form input{
 
 #comments-cont {
     width: 200px;
-    height: 200px;
+    height: 20px;
     display: block;
     color: black;
+    padding: 0;
+    margin-top: 12px;
 }
 
 

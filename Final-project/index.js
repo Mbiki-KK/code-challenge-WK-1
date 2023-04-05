@@ -21,4 +21,18 @@ likeBtn.addEventListener("click", () => {
   likeBtn.classList.add("liked");
 });
 
+const addCommentBtn = document.getElementById("add-comment");
+const commentInput = document.querySelector("form input");
+const commentsCont = document.getElementById("comments-cont");
+
+addCommentBtn.addEventListener("click", () => {
+  event.preventDefault();
+  const commentText = commentInput.value;
+  if (commentText !== "") {
+    const comment = document.createElement("p");
+    comment.textContent = commentText;
+    commentsCont.appendChild(comment);
+    commentInput.value = "";
+  }
+});
 
