@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
 * {
     margin: 0%;
     padding: 0px;
@@ -53,6 +54,7 @@ p {
 #photo-gen {
     margin: 12px;
     margin-left: 350px;
+    margin-right: 120px;
     width: 100px;
     height: 50px;
     background-color: aqua;
@@ -71,17 +73,57 @@ form input{
     border: none;
 }
 
-
 #like-btn {
     margin: 12px;
     width: 100px;
     height: 50px;
-    background-color: red;
-    font-size: medium;
-    font-weight: bold;
-    /* background-image: url('https://media.istockphoto.com/id/1128400054/vector/heart-symbol-of-love-and-valentines-day-flat-red-icon-isolated-on-white-background-vector.jpg?s=612x612&w=0&k=20&c=COn_iSO6PaIo3SZX1vUfDia4xNQl12SjoLZ_y46I0fY='); */
+    background-image: url('img.png'); 
+    background: url("img.png") no-repeat;
+    background-position: right;
+    background-size: 2900%;
+    height: 90px;
+    width: 60px;
+    top: 50%;
+    left: 21%;
+    transform: translate(-50%,-50%);
+    cursor: pointer; /* Added cursor pointer */
+  }
+  
+  #like-btn.liked {
+    animation-name: likeAnimation;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes likeAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      background-image: url('img.png');
+      transform: scale(1);
+    }
+  }
+  
 
-} 
+/* #like-btn {
+    margin: 12px;
+    width: 100px;
+    height: 50px;
+    background-image: url('img.png'); 
+    position: absolute;
+    background: url("img.png") no-repeat;
+    background-position: left;
+    background-size: 2900%;
+    height: 90px;
+    width: 90px;
+    top: 50%;
+    left: 21%;
+    transform: translate(-50%,-50%);
+} */
 
 #like-count {
     width: 200px;

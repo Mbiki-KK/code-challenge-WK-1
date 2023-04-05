@@ -18,5 +18,7 @@ let likes = 0;
 likeBtn.addEventListener("click", () => {
   likes++;
   likeCount.textContent = `${likes} ${likes === 1 ? 'like' : 'likes'}`;
+  likeBtn.classList.add("liked");
 });
+
 
