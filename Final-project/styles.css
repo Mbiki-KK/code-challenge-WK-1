@@ -1,0 +1,100 @@
+* {
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#Photo-area {
+    
+    
+}
+
+body {
+    min-height: 100vh;
+    background-color:aquamarine;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    width: 100%;
+    height: 50px;
+    font-style: italic;
+}
+
+#Photo-generator {
+    background-color: aquamarine;
+    color: white;
+    width: 800px;
+    height: 100vh;
+    box-shadow: 4px 4px 30px rgb(red, green, blue);
+    border-radius: 12px;
+    border-color: aqua;
+    display:block;
+    justify-content: center;
+    align-items: center;    
+}
+
+p {
+    width: 100%;
+    height: 500px;
+    background-color:aquamarine;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photo-gen {
+    margin: 12px;
+    margin-left: 350px;
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+}
+
+form input{
+    background-color: aqua;
+    width: 100%;
+    height: 100px;
+    border: none;
+}
+
+#add-comment {
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+
+
+#like-btn {
+    margin: 12px;
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    font-size: medium;
+    font-weight: bold;
+    /* background-image: url('https://media.istockphoto.com/id/1128400054/vector/heart-symbol-of-love-and-valentines-day-flat-red-icon-isolated-on-white-background-vector.jpg?s=612x612&w=0&k=20&c=COn_iSO6PaIo3SZX1vUfDia4xNQl12SjoLZ_y46I0fY='); */
+
+} 
+
+#like-count {
+    width: 200px;
+    height: 100px;
+    color: black;
+    font-style: italic;
+}
+
+#comments-cont {
+    width: 200px;
+    height: 200px;
+    display: block;
+    color: black;
+}
+
+
