@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
 * {
     margin: 0%;
@@ -8,11 +11,13 @@
 
 body {
     min-height: 100vh;
-    background-color:aquamarine;
+    background-color:rgb(87, 132, 218);
     justify-content: center;
     align-items: center;
 }
 h1 {
+    font-family: 'Lily Script One', cursive;
+    font-style: italic;
     background-color: aqua;
     display: flex;
     justify-content: center;
@@ -21,6 +26,7 @@ h1 {
 h3 {
     width: 100%;
     height: 50px;
+    color: white;
     font-style: italic;
 }
 
@@ -32,15 +38,15 @@ h3 {
     box-shadow: 4px 4px 30px rgb(red, green, blue);
     border-radius: 12px;
     border-color: aqua;
-    display:block;
+    display:contents;
     justify-content: center;
     align-items: center;    
 }
 
-p {
+#Photo-area {
     width: 100%;
     height: 500px;
-    background-color:aquamarine;
+    background-color:rgb(255, 255, 255);
     border-radius: 12px;
     display: flex;
     justify-content: center;
@@ -48,18 +54,19 @@ p {
 }
 
 #photo-gen {
+    font-family: 'Alkatra', cursive;
     margin: 12px;
     margin-left: 350px;
     margin-right: 120px;
-    width: 100px;
+    width: 300px;
     height: 50px;
-    background-color: aqua;
+    background-color: rgb(0, 180, 252);
 }
 
-form input{
-    background-color: aqua;
+.screen{
+    background-color: silver;
     width: 100%;
-    height: 100px;
+    height: 50px;
     border: none;
 }
 
@@ -67,10 +74,14 @@ form input{
     width: 150px;
     height: 40px;
     border: none;
+    color: white;
+    background-color:transparent;
+    font-family: 'Alkatra', cursive;
 }
 
 #like-btn {
-    margin: 12px;
+    border: none;
+    margin-top: 78px;
     width: 100px;
     height: 50px;
     background-image: url('img.png'); 
@@ -86,6 +97,7 @@ form input{
   }
   
   #like-btn.liked {
+    border: none;
     animation-name: likeAnimation;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
@@ -124,17 +136,21 @@ form input{
 #like-count {
     width: 200px;
     height: 100px;
-    color: black;
+    color: white;
     font-style: italic;
+    margin-left: 450px;
 }
 
 #comments-cont {
+    font-family: 'Lobster Two', cursive;
     width: 200px;
     height: 20px;
     display: block;
-    color: black;
+    color: white;
     padding: 0;
     margin-top: 12px;
 }
-
+/* comments-cont p{
+    width: 100px;
+} */
 

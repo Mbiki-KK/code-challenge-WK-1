@@ -2,7 +2,7 @@ const photoArea = document.getElementById("Photo-area");
 const generateBtn = document.getElementById("photo-gen");
 
 generateBtn.addEventListener("click", () => {
-  fetch("https://picsum.photos/200/300")
+  fetch("https://picsum.photos/600/400")
     .then((response) => {
       photoArea.innerHTML = `<img src="${response.url}" alt="Generated Photo">`;
     })
