@@ -5,6 +5,7 @@ generateBtn.addEventListener("click", () => {
   fetch("https://picsum.photos/600/400")
     .then((response) => {
       photoArea.innerHTML = `<img src="${response.url}" alt="Generated Photo">`;
+      console.log('Image generated');
     })
     .catch((error) => {
       console.log(error);
