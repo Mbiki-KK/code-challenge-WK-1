@@ -16,10 +16,12 @@ body {
     align-items: center;
 }
 h1 {
+    height: 200px;
     font-family: 'Lily Script One', cursive;
     font-style: italic;
     background-color: aqua;
-    display: flex;
+    background-image: url('assets folder/camera-taking-pictures.gif');
+    display: block;
     justify-content: center;
     align-items: center;
 }
@@ -85,8 +87,8 @@ h3 {
     margin-top: 78px;
     width: 100px;
     height: 50px;
-    background-image: url('img.png'); 
-    background: url("img.png") no-repeat;
+    background-image: url('assets folder/img.png'); 
+    background: url("assets folder/img.png") no-repeat;
     background-position: right;
     background-size: 2900%;
     height: 90px;
@@ -112,7 +114,7 @@ h3 {
       transform: scale(1.2);
     }
     100% {
-      background-image: url('img.png');
+      background-image: url('assets folder/img.png');
       transform: scale(1);
     }
   }
