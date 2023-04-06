@@ -156,8 +156,8 @@ h3 {
     margin-top: 12px; */
     margin-top: 20px;
     padding: 10px;
-    /* background: linear-gradient(to bottom, #000000, #007bff); */
-    background-color: #62dadf;
+    background: linear-gradient(to bottom, #000000, #007bff);
+    /* background-color: #62dadf; */
     border: 1px solid #ddd;
     border-radius: 5px;
 }
